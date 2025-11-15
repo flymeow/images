@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+  </marker>
+</defs>
+<rect x="80" y="60" width="150" height="50" rx="6" fill="#f7f7f7" stroke="#333"/>
+<text x="155" y="90" text-anchor="middle" font-family="Arial" font-size="14">Peer A</text>
+<rect x="670" y="60" width="150" height="50" rx="6" fill="#f7f7f7" stroke="#333"/>
+<text x="745" y="90" text-anchor="middle" font-family="Arial" font-size="14">Peer B</text>
+<rect x="360" y="40" width="180" height="50" rx="6" fill="#eef5ff" stroke="#3a6ea5"/>
+<text x="450" y="70" text-anchor="middle" font-family="Arial" font-size="14">Signaling</text>
+<rect x="360" y="300" width="180" height="50" rx="6" fill="#f2f2f2" stroke="#333"/>
+<text x="450" y="330" text-anchor="middle" font-family="Arial" font-size="14">STUN/TURN</text>
+
+<line x1="230" y1="85" x2="360" y2="65" stroke="#666" marker-end="url(#arrow)"/>
+<line x1="540" y1="65" x2="670" y2="85" stroke="#666" marker-end="url(#arrow)"/>
+<text x="300" y="55" text-anchor="middle" font-family="Arial" font-size="12">signaling</text>
+<text x="600" y="55" text-anchor="middle" font-family="Arial" font-size="12">signaling</text>
+
+<line x1="155" y1="110" x2="450" y2="300" stroke="#999" marker-end="url(#arrow)"/>
+<line x1="745" y1="110" x2="450" y2="300" stroke="#999" marker-end="url(#arrow)"/>
+<text x="280" y="230" text-anchor="middle" font-family="Arial" font-size="12">STUN/TURN</text>
+<text x="620" y="230" text-anchor="middle" font-family="Arial" font-size="12">STUN/TURN</text>
+
+<line x1="230" y1="85" x2="670" y2="85" stroke="#2a7" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="450" y="115" text-anchor="middle" font-family="Arial" font-size="12">media/data (SRTP/SCTP)</text>
+</svg>
